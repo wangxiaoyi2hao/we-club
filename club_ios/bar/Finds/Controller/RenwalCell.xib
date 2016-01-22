@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="RenwalCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="天野" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J4q-0x-6Ny">
+                        <rect key="frame" x="8" y="11" width="85" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="UgC-wv-qeJ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="交强险" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8JD-rz-hmz">
+                        <rect key="frame" x="101" y="11" width="85" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="lZa-UO-9Pf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4000.0000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WdL-DH-yaO">
+                        <rect key="frame" x="194" y="11" width="85" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="XUl-fb-C4Y"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6uT-vU-fd6">
+                        <rect key="frame" x="287" y="6" width="80" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="31" id="GE7-jv-iSU"/>
+                            <constraint firstAttribute="width" constant="80" id="ZWf-b9-p78"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="一键续保" backgroundImage="车牌批改结果_03.png">
+                            <color key="titleColor" red="0.91764705879999997" green="0.93725490199999995" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="8JD-rz-hmz" firstAttribute="leading" secondItem="J4q-0x-6Ny" secondAttribute="trailing" constant="8" id="0Yh-1P-EGx"/>
+                    <constraint firstItem="6uT-vU-fd6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-2" id="4AE-Kl-hoF"/>
+                    <constraint firstItem="J4q-0x-6Ny" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="5ow-c9-hyr"/>
+                    <constraint firstItem="WdL-DH-yaO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="8oG-ci-yGD"/>
+                    <constraint firstItem="J4q-0x-6Ny" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="914-L8-DS8"/>
+                    <constraint firstItem="6uT-vU-fd6" firstAttribute="leading" secondItem="WdL-DH-yaO" secondAttribute="trailing" constant="8" id="ALg-lz-oRM"/>
+                    <constraint firstItem="8JD-rz-hmz" firstAttribute="width" secondItem="J4q-0x-6Ny" secondAttribute="width" id="BCf-7n-o0L"/>
+                    <constraint firstItem="WdL-DH-yaO" firstAttribute="width" secondItem="J4q-0x-6Ny" secondAttribute="width" id="E1v-DM-pul"/>
+                    <constraint firstItem="WdL-DH-yaO" firstAttribute="leading" secondItem="8JD-rz-hmz" secondAttribute="trailing" constant="8" id="VFc-pS-Y0x"/>
+                    <constraint firstItem="WdL-DH-yaO" firstAttribute="leading" secondItem="8JD-rz-hmz" secondAttribute="trailing" constant="8" id="iq6-Ie-eky"/>
+                    <constraint firstItem="8JD-rz-hmz" firstAttribute="leading" secondItem="J4q-0x-6Ny" secondAttribute="trailing" constant="8" id="khy-f5-4Xz"/>
+                    <constraint firstItem="6uT-vU-fd6" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="pxe-5X-iaP"/>
+                    <constraint firstItem="8JD-rz-hmz" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="uhV-3O-9VP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="284.5" y="191"/>
+        </tableViewCell>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="180" id="m83-e4-u21" customClass="RenwalCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="180"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="m83-e4-u21" id="AOz-42-gMG">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="179.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="续保_19-20.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rga-6G-gA7">
+                        <rect key="frame" x="69" y="24" width="198" height="92"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="198" id="95E-I2-FP8"/>
+                            <constraint firstAttribute="height" constant="92" id="UZe-SL-Dze"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="最近十五天没有保单" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gl6-xk-gYq">
+                        <rect key="frame" x="85" y="124" width="205" height="39"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="39" id="mlM-bB-ukI"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="Rga-6G-gA7" secondAttribute="trailing" constant="100" id="8Ab-Sf-Xv5"/>
+                    <constraint firstAttribute="trailing" secondItem="gl6-xk-gYq" secondAttribute="trailing" constant="85" id="CYm-r9-IVD"/>
+                    <constraint firstItem="gl6-xk-gYq" firstAttribute="top" secondItem="Rga-6G-gA7" secondAttribute="bottom" constant="8" id="DIY-SP-rRl"/>
+                    <constraint firstItem="gl6-xk-gYq" firstAttribute="leading" secondItem="AOz-42-gMG" secondAttribute="leading" constant="85" id="N8v-87-cBR"/>
+                    <constraint firstItem="Rga-6G-gA7" firstAttribute="leading" secondItem="AOz-42-gMG" secondAttribute="leadingMargin" constant="61" id="gqE-rn-FGv"/>
+                    <constraint firstItem="Rga-6G-gA7" firstAttribute="top" secondItem="AOz-42-gMG" secondAttribute="topMargin" constant="16" id="wFN-ms-gLZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.90980392156862744" green="0.89411764705882357" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+            <point key="canvasLocation" x="285.5" y="358"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="续保_19-20.png" width="200" height="100"/>
+        <image name="车牌批改结果_03.png" width="277" height="62"/>
+    </resources>
+</document>

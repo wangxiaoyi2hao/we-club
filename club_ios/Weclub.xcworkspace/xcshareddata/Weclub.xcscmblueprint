@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "013F15B37C1241772E5238A22C828432D27E8984",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "49376546-87c7-11e2-8836-d79d5d01e904++3316" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "49376546-87c7-11e2-8836-d79d5d01e904++3316" : 0,
+    "013F15B37C1241772E5238A22C828432D27E8984" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "886FB80B-F69F-4C9D-82C9-A0A988E2D21A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "49376546-87c7-11e2-8836-d79d5d01e904++3316" : "club_ios\/club_ios\/util\/ActivityView\/",
+    "013F15B37C1241772E5238A22C828432D27E8984" : "club_ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Weclub",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "club_ios\/Weclub.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/yuxiangxiang\/club_ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "013F15B37C1241772E5238A22C828432D27E8984"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.1.11\/svn\/travelpartner",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "49376546-87c7-11e2-8836-d79d5d01e904++3316"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LookUpUserAvatarViewController">
+            <connections>
+                <outlet property="_pageControl" destination="ZWr-rg-vpE" id="m3M-Gk-x8Z"/>
+                <outlet property="_scrollView" destination="w6e-GY-Uyg" id="r6X-UP-LVT"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w6e-GY-Uyg">
+                    <rect key="frame" x="0.0" y="105" width="320" height="359"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="blU-kn-cBP"/>
+                    </connections>
+                </scrollView>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="ZWr-rg-vpE">
+                    <rect key="frame" x="141" y="492" width="39" height="37"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="39" id="DCj-g8-Mup"/>
+                        <constraint firstAttribute="height" constant="37" id="tVs-kQ-EPX"/>
+                    </constraints>
+                </pageControl>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="w6e-GY-Uyg" secondAttribute="bottom" constant="104" id="FSg-rl-SgV"/>
+                <constraint firstAttribute="trailing" secondItem="w6e-GY-Uyg" secondAttribute="trailing" id="HAc-P3-J1Y"/>
+                <constraint firstAttribute="trailing" secondItem="ZWr-rg-vpE" secondAttribute="trailing" constant="140" id="Ka6-Wz-SF9"/>
+                <constraint firstAttribute="bottom" secondItem="ZWr-rg-vpE" secondAttribute="bottom" constant="39" id="WL1-yv-AlZ"/>
+                <constraint firstItem="w6e-GY-Uyg" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="105" id="aUV-LE-gfk"/>
+                <constraint firstItem="w6e-GY-Uyg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="oww-Os-Emn"/>
+                <constraint firstItem="ZWr-rg-vpE" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="141" id="w9g-e5-11S"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="203" y="204"/>
+        </view>
+    </objects>
+</document>

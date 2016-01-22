@@ -1,0 +1,10 @@
+platform :ios, ‘7.1’
+pod 'AMap2DMap'
+pod 'AMapSearch'
+pod 'Protobuf', '~> 3.0.0-alpha-4.1'
+pod 'ASIHTTPRequest'
+pod 'SDWebImage'
+pod 'RongCloudIMKit'
+pod "Qiniu", "~> 7.0"
+pod 'UMengSocial', '~> 4.3'
+
